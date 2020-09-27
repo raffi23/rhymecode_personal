@@ -42,13 +42,18 @@
 @media all and (max-width: 1200px) {
 
     .item-description-generic {
-        font-size: 0.8em;
+        font-size: 1em;
     }
     
 }
 
 @media all and (max-width: 700px) {
+
+    .twobytwo-container {
+        grid-template-columns: 0.7fr 1.3fr;
+    }
+
     .item-description-generic {
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 }

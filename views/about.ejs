@@ -1,52 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>About Us</title>
-</head>
-<body>
-    <div class="container">
-        <div class="nav-wrapper nav-wrapper-bg-control">
-            
-            <div class="nav-left-side">
-                <a href="/" class="brand">
-                    <i class="fas fa-code"></i> rhymecode
-                </a>
-            </div>
-        
-            <div class="nav-right-side">
+<%- include("./partials/header") %>
 
-                <div class="nav-link-wrapper">
-                    <a href="/">Home</a>
-                </div>
+<div class="nav-wrapper nav-wrapper-bg-control">
+    
+    <div class="nav-left-side">
+        <a href="/" class="brand">
+            <i class="fas fa-code"></i> rhymecode
+        </a>
+    </div>
 
-                <div class="nav-link-wrapper">
-                    <a href="/#learnMoreBanner">Services</a>
-                </div>
+    <div class="nav-right-side">
 
-                <div class="nav-link-wrapper">
-                    <a href="/about">About</a>
-                </div>
-
-            </div>
+        <div class="nav-link-wrapper">
+            <a href="/">Home</a>
         </div>
 
-        
-        <div class="content-wrapper">
-            <div class="twobytwo-container">
-                <div class="item-img-generic" style="background-image: url(./images/me.jpg);">
-                    
-                </div>
-                <div class="item-description-generic">
-                    <h1>Raffi Chamakian</h1>
-                    <p>Hey there! <br> nice to meet you, I can introduce myself as a startup web developer and today I'm thrilled we had a chance to both have the same purpose in <strong>business</strong>. <br> You would like to grow up your business and also do I, for now if you reached my website this means you are looking for a website that will help your business grow and I am certain I can help you do just that. <br> For us to do this we need to speak face to face as doing so will allow us to understand each other more. <br> send me an email by <a href="mailto:raffi_chamakian@outlook.com">clicking here</a> <br> or call me on: <a href="tel:+971582377071">+971582377071</a></p>
-                </div>
-            </div>
+        <div class="nav-link-wrapper">
+            <a href="/#learnMoreBanner">Services</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+            <a href="/about">About</a>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="content-wrapper">
+    <div class="twobytwo-container">
+        <div class="item-img-generic" style="background-image: url(./images/me.jpg);">
+            
+        </div>
+        <div class="item-description-generic">
+            <h1>Raffi Chamakian</h1>
+            <p>Hey there! <br> nice to meet you, I can introduce myself as a startup web developer and today I'm thrilled we had a chance to both have the same purpose in <strong>business</strong>. <br> You would like to grow up your business and also do I, for now if you reached my website this means you are looking for a website that will help your business grow and I am certain I can help you do just that. <br> For us to do this we need to speak face to face as doing so will allow us to understand each other more. <br> send me an email by <a href="mailto:raffi_chamakian@outlook.com">clicking here</a> <br> or call me on: <a href="tel:+971582377071">+971582377071</a></p>
         </div>
     </div>
-</body>
-</html>
+</div>
+
+<%- include("./partials/footer") %>
