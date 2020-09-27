@@ -1,34 +1,21 @@
-const itemsWrapper = document.querySelectorAll('.item-wrapper');
-const navWrapper = document.querySelector('.nav-wrapper');
-const toServicesItems = document.querySelectorAll('.toServicesItem');
-const toBannerItems = document.querySelectorAll('.toBannerItem');
+const { static } = require('express');
 
-let navBGVisible = false;
+const   express = require('express'),
+        app = express(),
+        bodyParser = require('body-parser');
 
-// Navbar scroll animation
-window.onscroll = function() {
-    if (window.pageYOffset > 80) {
-        if (!navBGVisible) {
-            navWrapper.classList.add('nav-wrapper-bg-control');
-            navBGVisible = true;
-        }
-    } else {
-        navWrapper.classList.remove('nav-wrapper-bg-control');
-        navBGVisible = false;
-    }
-}
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static(`${__dirname}/public`));
+app.set('view engine', 'ejs');
 
-// takes array of items and scrolls to #id or .class
-function addScroll(from, to) {
-    for (const item of from) {
-        item.addEventListener('click', function () {
-            document.querySelector(`${to}`).scrollIntoView({
-                behavior: 'smooth',
-                block: 'center'
-            });
-        });
-    }
-}
+app.get('/', function(req, res){
+    res.render('index');
+});
 
-addScroll(toServicesItems, "#learnMoreBanner");
-addScroll(toBannerItems, "#banner");
+app.get('/about', function(req, res){
+    res.render('about');
+});
+
+app.listen(process.env.PORT, process.env.IP, function() {
+    console.log("connected and listening");
+});
