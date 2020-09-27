@@ -1,0 +1,54 @@
+.twobytwo-container {
+    /* padding-top: 78px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.item-img-generic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.item-description-generic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    padding: 10%;
+}
+
+.item-description-generic h1 {
+    color: #44bd32;
+}
+
+.item-description-generic p a {
+    color: #44bd32;
+}
+
+@media all and (max-width: 1200px) {
+
+    .item-description-generic {
+        font-size: 0.8em;
+    }
+    
+}
+
+@media all and (max-width: 700px) {
+    .item-description-generic {
+        font-size: 0.7em;
+    }
+}

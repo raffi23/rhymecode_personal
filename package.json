@@ -1,0 +1,21 @@
+{
+  "name": "test1-nodejs",
+  "version": "1.0.0",
+  "description": "My Portofolio Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/rhymecode.git"
+  },
+  "author": "Raffi Chamakian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
+  }
+}
