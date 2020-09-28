@@ -51,6 +51,7 @@
 
     .twobytwo-container {
         grid-template-columns: 0.7fr 1.3fr;
+        padding-top: 78px;
     }
 
     .item-description-generic {
