@@ -49,7 +49,8 @@
 @media all and (max-width: 700px) {
 
     .twobytwo-container {
-        grid-template-columns: 0.7fr 1.3fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.8fr 1.2fr;
     }
 
     .item-description-generic {
