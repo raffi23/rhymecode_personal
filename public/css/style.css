@@ -80,10 +80,6 @@ hr {
     width: 100%;
 }
 
-.banner {
-    /* position: relative; */
-}
-
 .banner-container {
     display: flex;
     justify-content: start;
@@ -122,6 +118,7 @@ hr {
     justify-content: center;
     align-items: flex-start;
     padding-left: 20%;
+    padding-bottom: 10%;
     position: absolute;
 }
 
