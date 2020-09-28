@@ -5,6 +5,7 @@
 }
 
 .item-img-generic {
+    padding-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,8 +49,6 @@
 @media all and (max-width: 700px) {
 
     .twobytwo-container {
-
-        padding-top: 10%;
         grid-template-columns: 0.7fr 1.3fr;
     }
 
