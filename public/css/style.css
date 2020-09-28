@@ -23,7 +23,7 @@ hr {
 }
 
 .nav-wrapper-bg-control {
-    background-color: #273c75;
+    background-color: rgba(39, 60, 117, 0.98);
     transition: background-color 0.7s;
 }
 
