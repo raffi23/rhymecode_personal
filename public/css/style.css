@@ -261,6 +261,10 @@ hr {
     .items-wrapper {
         grid-template-columns: 1fr;
     }
+
+    .banner-container-fluid > h1 {
+        font-size: 1.2em;
+    }
 }
 
 /* effects only on desktop check */
