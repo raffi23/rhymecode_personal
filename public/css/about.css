@@ -1,5 +1,4 @@
 .twobytwo-container {
-    /* padding-top: 78px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;
@@ -13,7 +12,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
     width: 100%;
 }
 
@@ -50,8 +48,9 @@
 @media all and (max-width: 700px) {
 
     .twobytwo-container {
+
+        padding-top: 10%;
         grid-template-columns: 0.7fr 1.3fr;
-        padding-top: 78px;
     }
 
     .item-description-generic {
