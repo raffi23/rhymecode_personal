@@ -39,12 +39,12 @@ hr {
 }
 
 .nav-left-side {
-    padding-left: 100px;
+    padding-left: 10%;
 }
 
 .nav-right-side {
     display: flex;
-    padding-right: 100px;
+    padding-right: 10%;
 }
 
 .nav-wrapper > .nav-right-side > div {
@@ -66,7 +66,7 @@ hr {
 }
 
 .nav-burger-wrapper {
-    padding-right: 100px;
+    padding-right: 10%;
     display: none;
     visibility: hidden;
 }
