@@ -74,7 +74,7 @@ hr {
 .nav-burger-wrapper button {
     outline: none;
     cursor: pointer;
-    line-height: 6px;
+    line-height: 4px;
     border-radius: 5px;
     padding: 5px 10px;
     background-color: transparent;
