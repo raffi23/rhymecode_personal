@@ -1,8 +1,10 @@
-@import './about.css';
+html {
+    height: 100%;
+}
 
-body, html {
+body {
     margin: 0px;
-    width: 100%;
+    height: 100%;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -13,11 +15,13 @@ hr {
 }
 
 .nav-wrapper {
-    height: 9vh;
+    height: 10vh;
     position: fixed;
     width: 100%;
     top: 0;
     right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 1;
     display: flex;
     justify-content: space-between;
@@ -85,8 +89,15 @@ hr {
 /* =============================================================== */
 
 .container {
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
+    position: absolute;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
 }
 
 .extend-h {
@@ -102,12 +113,16 @@ hr {
     width: 100%;
 }
 
+#banner {
+    height: 100vh;
+    width: 100%;
+}
+
 .banner-container {
     display: flex;
     justify-content: start;
     align-items: center;
-    height: 100vh;
-    position: relative;
+    height: 100%;
 }
 
 .collapse-overlay {
@@ -117,19 +132,24 @@ hr {
 
 .banner-container-overlay {
     background-color: rgba(39, 60, 117, 0.98);
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: absolute;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
     z-index: 1;
-    display: none;
     visibility: hidden;
+    /* padding-top: 40%; */
 }
 
 .banner-container-overlay button {
+    margin: 20px;
     outline: none;
     cursor: pointer;
     line-height: 6px;
@@ -172,14 +192,18 @@ hr {
 }
 
 .banner-description {
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 20%;
+    padding-left: 10%;
     padding-bottom: 3%;
     position: absolute;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
 }
 
 .banner-description h1 {
@@ -243,7 +267,10 @@ hr {
 
 .item-img-desc-wrapper {
     position: absolute;
-    top: 0;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -274,18 +301,63 @@ hr {
     width: 100%;
 }
 
+/* =================== about page elements =================== */
+
+.content-wrapper {
+    display: block;
+    position:absolute;
+    height:auto;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin-top: 9vh;
+}
+
+.twobytwo-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+}
+
+.item-img-generic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item-description-generic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    padding: 0 10px;
+}
+
+.item-description-generic h1 {
+    color: #44bd32;
+}
+
+.item-description-generic p a {
+    color: #44bd32;
+}
+
+/* ====================================================== */
+
 /* This will target display width between 701px - 1200px */
-@media screen and (max-width: 1200px) {
-
-    .nav-right-side {
-        display: none;
-        visibility: hidden;
-    }
-
-    .nav-burger-wrapper {
-        display: block;
-        visibility: visible;
-    }
+@media screen and (max-width: 1039px) {
 
     .items-wrapper {
         grid-template-columns: repeat(2, 1fr);
@@ -307,10 +379,24 @@ hr {
     .item-description p {
         font-size: 0.9em;
     }
+
+    /* =================== about page elements =================== */
+
+    /* ====================================================== */
 }
 
 /* This will target display width between 0px - 700px */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
+
+    .nav-right-side {
+        display: none;
+        visibility: hidden;
+    }
+
+    .nav-burger-wrapper {
+        display: block;
+        visibility: visible;
+    }    
 
     .brand {
         font-size: 1.4em;
@@ -321,7 +407,6 @@ hr {
     }
 
     .banner-description {
-        padding-left: 30px;
         font-size: 0.6em;
     }
 
@@ -332,6 +417,15 @@ hr {
     .banner-container-fluid > h1 {
         font-size: 1.2em;
     }
+
+    /* =================== about page elements =================== */
+
+    .twobytwo-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.95fr 1.05fr;
+    }
+
+    /* ====================================================== */
 }
 
 /* effects only on desktop check */
