@@ -15,7 +15,7 @@ hr {
 }
 
 .nav-wrapper {
-    height: 10vh;
+    height: 9vh;
     position: fixed;
     width: 100%;
     top: 0;
@@ -407,7 +407,7 @@ hr {
     }
 
     .banner-description {
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
     .items-wrapper {
