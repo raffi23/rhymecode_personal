@@ -211,7 +211,7 @@ hr {
     font-size: 5em;
     line-height: 15px;
     color: #f5f6fa;
-    text-shadow: 5px 5px 20px black;
+    text-shadow: 4px 4px 12px black;
     width: auto;
 }
 
@@ -227,7 +227,7 @@ hr {
     border-radius: 0.3em;
     border: 0;
     font-weight: 500;
-    margin-top: 1em;
+    margin-top: 1.3em;
     padding: 0.8em;
     outline: none;
     cursor: pointer;
@@ -237,7 +237,7 @@ hr {
 }
 
 .banner-description p,button {
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 .items-wrapper {
@@ -374,10 +374,6 @@ hr {
     .item-img-desc-wrapper .item-description > p {
         color: #dcdde1;
         transition: color 0.7s;
-    }
-
-    .item-description p {
-        font-size: 0.9em;
     }
 
     /* =================== about page elements =================== */
