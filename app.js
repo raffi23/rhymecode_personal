@@ -14,6 +14,10 @@ app.get('/about', function(req, res){
     res.render('about');
 });
 
+app.get('/contact', function(req, res) {
+    res.send("Under Construction");
+});
+
 app.listen(process.env.PORT, process.env.IP, function() {
     console.log("connected and listening");
 });
