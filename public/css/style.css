@@ -18,6 +18,7 @@ header {
     position: fixed;
     top: 0;
     transition: background-color .5s;
+    z-index: 100;
 }
 
 ul {
@@ -64,17 +65,21 @@ li {
 }
 
 .hero {
-    height: 60vh;
+    height: 80vh;
 }
 
 .hero-container {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
 }
 
 .macbook {
-    margin-top: 10em;
-    width: 40%;
-    margin-bottom: 7%;
+    min-width: 20%;
+    max-width: 40%;
 }
 
 .hero-container div {
@@ -82,23 +87,23 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 7%;
 }
 
 .important-heading {
-    font-size: 1.7em;
+    font-size: 1.3em;
     margin-top: 0;
     margin-bottom: .2em;
 }
 
 .hero-container p {
     margin: 0;
-    font-size: .9em;
+    font-size: .8em;
     color:rgba(239, 239, 239, 0.8);
 }
 
 #scroll {
-    width: 3%;
+    min-width: 3%;
+    max-width: 3.5%;
     cursor: pointer;
 }
 
@@ -111,31 +116,30 @@ li {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .service-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20%;
+    height: 130px;
+    position: relative;
+    padding-top: 10%;
 }
 
 .service-item img {
-    width: 33.3%;
+    height: 60%;
 }
 
 .service-item p {
-    width: 33.3%;
-    font-size: 0.8em;
-    font-weight: 500;
+    font-size: .7em;
+    width: 40%;
+    padding: 0 30%;
 }
 
 .leaders {
     background: #f0f0f0;
-    color: #2C2C2C;
+    color: black;
     height: 50vh;
+    padding: 10% 0;
 }
 
 .leaders-container {
@@ -147,13 +151,13 @@ li {
 }
 
 .leaders-container img {
-    width: 60%;
+    height: 50%;
 }
 
 .leaders-container div blockquote, .leaders-container div figcaption {
     margin: 0;
     margin-top: 5%;
-    font-size: 1em;
+    font-size: .9em;
     padding: 0 20%;
     text-align: center;
 }
@@ -166,9 +170,9 @@ li {
 }
 
 .contact {
-    height: 30vh;
+    height: 40vh;
     background-color: white;
-    color: #2C2C2C;
+    color: black;
 }
 
 .contact-container {
@@ -188,8 +192,9 @@ li {
     color: white;
     border-radius: 100px;
     background-color: #44BD32;
-    font-size: 1.1em;
-    padding: 4% 15%;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 3% 10%;
     margin-top: 5%;
     outline: none;
 }
@@ -218,12 +223,8 @@ li {
         height: 80vh;
     }
 
-    .macbook {
-        width: 27%;
-    }
-
     .important-heading {
-        font-size: 2.5em;
+        font-size: 1.7em;
     }
 
     .hero-container p {
@@ -232,10 +233,15 @@ li {
 
     .services-container {
         grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 10%;
     }
 
-    .leaders-container img {
-        width: 20%;
+    .service-item {
+        padding-top: 20%;
+    }
+    
+    .leaders {
+        padding: 5% 0;
     }
 
     .leaders-container div blockquote, .leaders-container div figcaption {
@@ -246,10 +252,12 @@ li {
         margin-top: 2%;
     }
 
+    .contact {
+        height: 30vh;
+    }
+
     .contact-container button {
-        font-size: .9em;
-        padding: 2% 6%;
-        margin-top: 2%;
+        padding: 3.5% 11%;
     }
 
     .footer {
@@ -271,17 +279,8 @@ li {
         height: 100vh;
     }
 
-    .macbook {
-        width: 20%;
-        margin-bottom: 5%;
-    }
-
-    .hero-container div {
-        margin-bottom: 10%;
-    }
-
     .important-heading {
-        font-size: 3.2em;
+        font-size: 2.3em;
     }
 
     .hero-container p {
@@ -290,7 +289,6 @@ li {
 
     .services-container {
         grid-template-columns: repeat(3, 1fr);
-        padding-bottom: 5%;
     }
 
     .leaders-container {
@@ -299,8 +297,8 @@ li {
         align-items: center;
     }
 
-    .leaders-container img {
-        width: 15%;
+    .leaders {
+        padding: 0;
     }
 
     .leaders-container div blockquote, .leaders-container div figcaption {
@@ -313,12 +311,16 @@ li {
         margin-top: 1%;
     }
 
+    .contact {
+        height: 40vh;
+    }
+
     .contact-container h1 {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     .contact-container button {
-        font-size: 1.1em;
+        padding: 3% 10%;
     }
 
     .footer {
