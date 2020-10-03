@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="202.475" height="124.26" viewBox="0 0 202.475 124.26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Macbook" transform="translate(-719.661 -260.483)">
+    <g id="notebook" transform="translate(719.661 260.483)">
+      <path id="Path_1" data-name="Path 1" class="cls-1" d="M202.217,139.87H190.181a8.859,8.859,0,0,0,1.671-5.165V31.08a8.946,8.946,0,0,0-8.937-8.933H19.443A8.945,8.945,0,0,0,10.51,31.08V134.7a8.872,8.872,0,0,0,1.743,5.255H.1s-.546.553.894,1.99c4.081,4.083,13.247,4.436,13.247,4.436v-.011s171.7.041,171.892.03c9.571,0,12.661-2.87,15.192-4.544C203.2,139.979,202.217,139.87,202.217,139.87Zm-89.559,2.179h-23v-1.563h23l0,1.563Zm72.6-9.4H16.839V28.17H185.258V132.651Z" transform="translate(-0.001 -22.147)"/>
+    </g>
+    <g id="Group_1" data-name="Group 1" transform="translate(749.249 279.209)">
+      <path id="Subtraction_1" data-name="Subtraction 1" class="cls-1" d="M8.5,17A8.5,8.5,0,0,1,5.191.668a8.5,8.5,0,0,1,6.617,15.664A8.447,8.447,0,0,1,8.5,17ZM4.587,8.146V9.484L6.623,11.52l5.642-5.642L11.6,5.209,6.623,10.182Z" transform="translate(0.319 0.22)"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" width="114" height="2" rx="1" transform="translate(29.319 9.22)"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-1" width="78" height="2" rx="1" transform="translate(29.319 5.22)"/>
+    </g>
+    <g id="Group_1-2" data-name="Group 1" transform="translate(749.249 308.655)">
+      <path id="Subtraction_1-2" data-name="Subtraction 1" class="cls-1" d="M8.5,17A8.5,8.5,0,0,1,5.191.668a8.5,8.5,0,0,1,6.617,15.664A8.447,8.447,0,0,1,8.5,17ZM4.587,8.146V9.484L6.623,11.52l5.642-5.642L11.6,5.209,6.623,10.182Z" transform="translate(0.319 -0.225)"/>
+      <rect id="Rectangle_2-2" data-name="Rectangle 2" class="cls-1" width="114" height="2" rx="1" transform="translate(29.319 8.775)"/>
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" class="cls-1" width="78" height="1" rx="0.5" transform="translate(29.319 5.775)"/>
+    </g>
+    <g id="Group_1-3" data-name="Group 1" transform="translate(749.249 338.1)">
+      <path id="Subtraction_1-3" data-name="Subtraction 1" class="cls-1" d="M8.5,17A8.5,8.5,0,0,1,5.191.668a8.5,8.5,0,0,1,6.617,15.664A8.447,8.447,0,0,1,8.5,17ZM4.587,8.146V9.484L6.623,11.52l5.642-5.642L11.6,5.209,6.623,10.182Z" transform="translate(0.319 0.329)"/>
+      <rect id="Rectangle_2-3" data-name="Rectangle 2" class="cls-1" width="114" height="2" rx="1" transform="translate(29.319 9.329)"/>
+      <rect id="Rectangle_3-3" data-name="Rectangle 3" class="cls-1" width="78" height="2" rx="1" transform="translate(29.319 5.329)"/>
+    </g>
+  </g>
+</svg>

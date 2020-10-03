@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="153" height="24" viewBox="0 0 153 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44bd32;
+        font-size: 20px;
+        font-family: Montserrat-ExtraBold, Montserrat;
+        font-weight: 800;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #707070;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: Montserrat-Regular, Montserrat;
+        font-weight: 400;
+      }
+    </style>
+  </defs>
+  <text id="Logo" class="cls-1" transform="translate(0 19)"><tspan x="0" y="0">&lt;</tspan><tspan class="cls-2" y="0">/</tspan><tspan y="0">&gt;</tspan><tspan class="cls-3" y="0"> </tspan><tspan class="cls-4" y="0">rhymecode</tspan></text>
+</svg>
