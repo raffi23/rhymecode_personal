@@ -15,7 +15,7 @@ app.get('/about', function(req, res){
 });
 
 app.get('/contact', function(req, res) {
-    res.send("Under Construction");
+    res.render('contact');
 });
 
 app.listen(process.env.PORT, process.env.IP, function() {
