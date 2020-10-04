@@ -107,7 +107,7 @@ li {
 }
 
 #scroll {
-    padding-top: 10%;
+    margin-top: 10%;
     min-width: 3%;
     max-width: 3.5%;
     cursor: pointer;
@@ -126,7 +126,7 @@ li {
 
 .service-item {
     height: 130px;
-    padding-top: 10%;
+    margin: 10% 0;
 }
 
 .service-item img {
@@ -144,7 +144,6 @@ li {
     background: #f0f0f0;
     color: black;
     height: 50vh;
-    padding: 10% 0;
 }
 
 .leaders-container {
@@ -207,7 +206,7 @@ li {
 }
 
 .footer {
-    padding: 20% 0;
+    padding: 5% 0;
     background-color: #2C2C2C;
 }
 
@@ -244,18 +243,10 @@ li {
 
     .services-container {
         grid-template-columns: repeat(2, 1fr);
-        padding-bottom: 5%;
-    }
-
-    .service-item {
-        padding-top: 20%;
-    }
-    
-    .leaders {
-        padding: 5% 0;
     }
 
     .leaders-container div blockquote, .leaders-container div figcaption {
+        font-size: 1.2em;
         padding: 0 27%;
     }
 
@@ -318,10 +309,6 @@ li {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-    }
-
-    .leaders {
-        padding: 0;
     }
 
     .leaders-container div blockquote, .leaders-container div figcaption {
