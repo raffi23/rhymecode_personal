@@ -44,7 +44,7 @@ li {
 .container {
     height: 100%;
     width: 84%;
-    padding: 0 8%;
+    margin: 0 8%;
     text-align: center;
 }
 
@@ -52,6 +52,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .logo {
