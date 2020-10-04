@@ -218,9 +218,14 @@ li {
     height: 100%;
 }
 
+.footer-container div {
+    
+}
+
 .footer-container div p {
     color: #f0f0f0;
     font-size: .7em;
+    padding: 2% 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -345,7 +350,7 @@ li {
 
     .footer-container li {
         float: none;
-        padding-bottom: 0;
+        /* padding-bottom: 0; */
         font-size: .8em;
     }
 }
