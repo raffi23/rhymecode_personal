@@ -139,7 +139,7 @@ li {
 .service-item p {
     font-size: .7em;
     width: 40%;
-    padding: 0 30%;
+    margin: 0 30%;
     font-weight: 600;
 }
 
