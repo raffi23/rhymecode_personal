@@ -140,7 +140,7 @@ li {
 .service-item p {
     font-size: .7em;
     width: 40%;
-    margin: 0 30%;
+    margin: 5% 30%;
     font-weight: 600;
 }
 
@@ -165,10 +165,8 @@ li {
 
 .leaders-container div blockquote, .leaders-container div figcaption {
     margin: 0;
-    margin-top: 5%;
     font-size: .9em;
-    margin: 0 20%;
-    text-align: center;
+    margin: 5% 20%;
 }
 
 .leaders-container div figcaption {
@@ -251,9 +249,13 @@ li {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .leaders {
+        padding: 2.5% 0;
+    }
+
     .leaders-container div blockquote, .leaders-container div figcaption {
         font-size: 1.2em;
-        margin: 0 27%;
+        margin: 2% 27%;
     }
 
     .leaders-container div figcaption {
@@ -309,6 +311,10 @@ li {
     
     .service-item p {
         font-size: .8em;
+    }
+
+    .leaders {
+        padding: 0;
     }
 
     .leaders-container {
