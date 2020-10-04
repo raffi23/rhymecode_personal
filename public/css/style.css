@@ -42,6 +42,7 @@ li {
 }
 
 .container {
+    height: 100%;
     width: 84%;
     padding: 0 8%;
     text-align: center;
