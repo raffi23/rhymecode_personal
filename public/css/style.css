@@ -2,11 +2,12 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #7204cf;
-    background: linear-gradient(#7204cf 0%, #22015c 100%);
     margin: 0;
     height: 100%;
+    width: 100%;
     color: white;
+    background: #7204cf;
+    background: linear-gradient(#7204cf 0%, #22015c 100%);
 }
 
 header {
@@ -32,6 +33,12 @@ li {
 .navigation ul li a {
     color: white;
     text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.navigation ul li a:hover {
+    transition: border .5s;
+    border-bottom: 2px solid #44BD32;
 }
 
 .container {
@@ -115,7 +122,6 @@ li {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    padding-bottom: 5%;
 }
 
 .service-item {
@@ -131,6 +137,7 @@ li {
     font-size: .7em;
     width: 40%;
     padding: 0 30%;
+    font-weight: 600;
 }
 
 .leaders {
@@ -233,7 +240,7 @@ li {
 
     .services-container {
         grid-template-columns: repeat(2, 1fr);
-        padding-bottom: 10%;
+        padding-bottom: 5%;
     }
 
     .service-item {
@@ -289,6 +296,14 @@ li {
 
     .services-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .service-item img {
+        height: 70%;
+    }
+    
+    .service-item p {
+        font-size: .8em;
     }
 
     .leaders-container {
