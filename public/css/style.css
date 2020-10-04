@@ -116,12 +116,14 @@ li {
 .informative {
     background-color: white;
     color: black;
+    padding: 2% 0;
 }
 
 .services-container {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
+    
 }
 
 .service-item {
@@ -216,10 +218,6 @@ li {
     justify-content: center;
     align-items: center;
     height: 100%;
-}
-
-.footer-container div {
-    
 }
 
 .footer-container div p {
