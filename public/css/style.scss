@@ -46,8 +46,8 @@ header {
     width: 100%;
     background-color: $color-d-purple;
     transition: all ease-in 1s;
-    clip-path: circle(100% at 80% -20%);
-    -webkit-clip-mask: circle(100% at 80% -20%);
+    clip-path: circle(150% at 80% -20%);
+    -webkit-clip-mask: circle(150% at 80% -20%);
 
     div {
         margin-top: 5em;
