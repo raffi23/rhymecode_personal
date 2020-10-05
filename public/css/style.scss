@@ -96,8 +96,6 @@ section, footer {
         cursor: pointer;
     }
 
-    
-
     .navigation {
         display: flex;
         justify-content: center;
@@ -107,6 +105,7 @@ section, footer {
 }
 
 .logo {
+    cursor: pointer;
     width: 170px;
 }
 
