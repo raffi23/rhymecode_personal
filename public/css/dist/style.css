@@ -37,8 +37,8 @@ header {
   width: 100%;
   background-color: #22015c;
   transition: all ease-in 1s;
-  clip-path: circle(150% at 80% -20%);
-  -webkit-clip-mask: circle(150% at 80% -20%);
+  clip-path: circle(120% at 80% -20%);
+  -webkit-clip-mask: circle(120% at 80% -20%);
 }
 .menu div {
   margin-top: 5em;
