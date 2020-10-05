@@ -80,7 +80,7 @@ section, footer {
   position: relative;
 }
 .nav-wrapper .hamburger {
-  width: 28px;
+  width: 25px;
   z-index: 99;
   cursor: pointer;
 }
