@@ -45,15 +45,14 @@ header {
     height: 100vh;
     width: 100%;
     background-color: $color-d-purple;
-    transition: all ease-in 1s;
+    transition: all ease-out .6s;
     clip-path: circle(120% at 80% -20%);
     -webkit-clip-mask: circle(120% at 80% -20%);
 
     div {
-        margin-top: 5em;
-        padding-right: 2.6em;
+        margin: 80px auto auto auto;
         height: 100%;
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -61,7 +60,7 @@ header {
 
     a {
         display: block;
-        padding: .2em;
+        padding-bottom: .2em;
         margin-bottom: .2em;
         font-size: 2em;
         color: white;
@@ -294,13 +293,6 @@ footer {
     
     body {
         font-size: 17px;
-    }
-
-    .menu {
-
-        div {
-            padding-right: 5em;
-        }
     }
 
     .hero-container {

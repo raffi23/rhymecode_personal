@@ -1,3 +1,4 @@
+const body = document.querySelector('body');
 const header = document.querySelector('header');
 const scroll = document.querySelector('#scroll');
 const informative = document.querySelector('#informative');
@@ -14,6 +15,7 @@ window.onscroll = function () {
 
 hamburgerButton.addEventListener('click', function() {
     menu.classList.toggle('hide');
+    console.log(body.style.overflowX);
 })
 
 scroll.addEventListener('click', function() {

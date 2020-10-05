@@ -1,5 +1,6 @@
 "use strict";
 
+var body = document.querySelector('body');
 var header = document.querySelector('header');
 var scroll = document.querySelector('#scroll');
 var informative = document.querySelector('#informative');
@@ -16,6 +17,7 @@ window.onscroll = function () {
 
 hamburgerButton.addEventListener('click', function () {
   menu.classList.toggle('hide');
+  console.log(body.style.overflowX);
 });
 scroll.addEventListener('click', function () {
   informative.scrollIntoView({
