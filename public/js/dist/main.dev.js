@@ -17,7 +17,12 @@ window.onscroll = function () {
 
 hamburgerButton.addEventListener('click', function () {
   menu.classList.toggle('hide');
-  console.log(body.style.overflowX);
+
+  if (body.style.overflow !== 'hidden') {
+    body.style.overflow = 'hidden';
+  } else {
+    body.style.overflow = '';
+  }
 });
 scroll.addEventListener('click', function () {
   informative.scrollIntoView({
