@@ -6,6 +6,8 @@ var scroll = document.querySelector('#scroll');
 var informative = document.querySelector('#informative');
 var hamburgerButton = document.querySelector('.hamburger');
 var menu = document.querySelector('.menu');
+var services = document.querySelector('#services');
+console.log(services);
 
 window.onscroll = function () {
   if (window.pageYOffset > 80) {
@@ -24,9 +26,16 @@ hamburgerButton.addEventListener('click', function () {
     body.style.overflow = '';
   }
 });
-scroll.addEventListener('click', function () {
-  informative.scrollIntoView({
-    behavior: 'smooth',
-    block: 'center'
+
+function addScroll(from, to) {
+  from.addEventListener('click', function (e) {
+    e.preventDefault();
+    to.scrollIntoView({
+      behavior: 'smooth',
+      block: 'center'
+    });
   });
-});
+}
+
+addScroll(scroll, informative);
+addScroll(services, informative);
