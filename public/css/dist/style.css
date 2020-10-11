@@ -93,7 +93,7 @@ section, footer {
 
 .logo {
   cursor: pointer;
-  width: 200px;
+  width: 165px;
 }
 
 .nav-items {
@@ -342,6 +342,10 @@ footer {
     font-size: 17px;
   }
 
+  .logo {
+    width: 180px;
+  }
+
   .hero-container .macbook {
     width: 12em;
   }
@@ -414,6 +418,10 @@ footer {
 
   body {
     font-size: 18px;
+  }
+
+  .logo {
+    width: 200px;
   }
 
   .nav-items a:hover {
