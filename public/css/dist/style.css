@@ -93,7 +93,7 @@ section, footer {
 
 .logo {
   cursor: pointer;
-  width: 170px;
+  width: 190px;
 }
 
 .nav-items {
@@ -218,16 +218,15 @@ section, footer {
   text-align: center;
   font-size: 1.3em;
 }
-.contact-container button {
-  outline: none;
-  cursor: pointer;
-  margin-top: 0.8em;
+.contact-container a {
   padding: 0.5em 1.2em;
+  border-radius: 40px;
   background-color: #7204cf;
   color: white;
-  border: none;
-  border-radius: 25px;
-  font-size: 1.2em;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 0.5em;
 }
 
 footer {
@@ -273,6 +272,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.generic-hero-container h2 {
+  font-weight: 500;
+}
 
 .generic-section {
   background-color: #fff;
@@ -292,6 +294,9 @@ footer {
 }
 .about-wrapper p {
   margin: 0 3vw;
+}
+.about-wrapper p a {
+  color: #7204cf;
 }
 
 .contact-wrapper {
@@ -315,7 +320,11 @@ footer {
   align-items: center;
 }
 .contact-wrapper .contact-details a {
-  color: #22015c;
+  width: 130px;
+  padding: 8px 18px;
+  border-radius: 40px;
+  background-color: #7204cf;
+  color: white;
   text-decoration: none;
   font-size: 1.1em;
   margin: 0.5em;

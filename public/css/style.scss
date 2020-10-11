@@ -106,7 +106,7 @@ section, footer {
 
 .logo {
     cursor: pointer;
-    width: 170px;
+    width: 190px;
 }
 
 .nav-items {
@@ -248,16 +248,16 @@ section, footer {
         font-size: 1.3em;
     }
 
-    button {
-        outline: none;
-        cursor: pointer;
-        margin-top: .8em;
+    a {
+        // width: 130px;
         padding: .5em 1.2em;
+        border-radius: 40px;
         background-color: $color-l-purple;
         color: white;
-        border: none;
-        border-radius: 25px;
-        font-size: 1.2em;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        margin: .5em;
     }
 }
 
@@ -308,6 +308,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    h2 {
+        font-weight: 500;
+    }
 }
 
 .generic-section {
@@ -329,6 +333,10 @@ footer {
 
     p {
         margin: 0 3vw;
+
+        a {
+            color: $color-l-purple;
+        }
     }
 }
 
@@ -356,7 +364,11 @@ footer {
         align-items: center;
 
         a {
-            color: $color-d-purple;
+            width: 130px;
+            padding: 8px 18px;
+            border-radius: 40px;
+            background-color: $color-l-purple;
+            color: white;
             text-decoration: none;
             font-size: 1.1em;
             margin: .5em;
