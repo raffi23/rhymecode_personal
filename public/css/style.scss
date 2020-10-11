@@ -134,9 +134,10 @@ section, footer {
 .hero-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
 
     .macbook {
         width: 11em;
@@ -154,8 +155,10 @@ section, footer {
     }
 
     #scroll {
-        width: 2.5em;
-        margin-top: 5em;
+        position: absolute;
+        width: 2.2em;
+        bottom: 0;
+        padding-bottom: 1em;
         cursor: pointer;
         animation: scrollAnimation ease-in-out alternate 3s infinite;
     }
@@ -166,7 +169,7 @@ section, footer {
         }
 
         to {
-            transform: translateY(10px);
+            transform: translateY(0px);
         }
     }
 }
@@ -445,7 +448,7 @@ footer {
 @media only screen and (min-width: 1039px) {
 
     .hide-mobile {
-        display: block;
+        display: inline-block;
     }
 
     .hide-desktop {
@@ -457,6 +460,7 @@ footer {
     }
 
     .hero {
+        height: 100vh;
         margin: 0;
     }
 
