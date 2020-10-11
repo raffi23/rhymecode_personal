@@ -93,7 +93,7 @@ section, footer {
 
 .logo {
   cursor: pointer;
-  width: 165px;
+  width: 180px;
 }
 
 .nav-items {
@@ -340,10 +340,6 @@ footer {
 @media only screen and (min-width: 768px) {
   body {
     font-size: 17px;
-  }
-
-  .logo {
-    width: 180px;
   }
 
   .hero-container .macbook {
