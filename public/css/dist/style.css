@@ -37,8 +37,8 @@ header {
   width: 100%;
   background-color: #22015c;
   transition: all ease-out 0.6s;
-  clip-path: circle(120% at 80% -20%);
-  -webkit-clip-mask: circle(120% at 80% -20%);
+  clip-path: circle(120% at 80% -80%);
+  -webkit-clip-mask: circle(120% at 80% -80%);
 }
 .menu div {
   margin: 80px auto auto auto;
@@ -58,8 +58,8 @@ header {
 }
 
 .hide {
-  clip-path: circle(100px at 80% -50%);
-  -webkit-clip-mask: circle(100px at 80% -20%);
+  clip-path: circle(100px at 80% -80%);
+  -webkit-clip-mask: circle(100px at 80% -80%);
 }
 
 section, footer {
