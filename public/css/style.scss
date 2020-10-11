@@ -345,7 +345,7 @@ footer {
 
 .contact-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -448,6 +448,10 @@ footer {
             margin-left: 1.2em;
             padding: .4em 1em;
         }
+    }
+
+    .contact-wrapper {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .footer-container {
