@@ -284,11 +284,11 @@ footer {
   text-align: center;
 }
 .about-wrapper img {
-  height: 40vw;
+  height: 55vw;
   margin-bottom: 40px;
 }
 .about-wrapper p {
-  margin: 0 5vw;
+  margin: 0 3vw;
 }
 
 .contact-wrapper {
@@ -417,6 +417,13 @@ footer {
 
   .services-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-wrapper img {
+    height: 30vw;
+  }
+  .about-wrapper p {
+    margin: 0 10vw;
   }
 
   .leaders-container {
